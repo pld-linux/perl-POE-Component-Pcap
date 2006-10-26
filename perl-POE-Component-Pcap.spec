@@ -1,7 +1,8 @@
 #
 # Conditional build:
 %bcond_without	autodeps	# don't BR packages needed only for resolving deps
-%bcond_without	tests		# do not perform "make test"
+%bcond_with	tests		# perform "make test"
+#				  (need root access to open a network device)
 #
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	POE
@@ -10,7 +11,7 @@ Summary:	POE::Component::Pcap - POE interface to Net::Pcap
 Summary(pl):	POE::Component::Pcap - interfejs POE do Net::Pcap
 Name:		perl-POE-Component-Pcap
 Version:	0.04
-Release:	0.1
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
