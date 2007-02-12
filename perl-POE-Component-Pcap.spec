@@ -8,7 +8,7 @@
 %define		pdir	POE
 %define		pnam	Component-Pcap
 Summary:	POE::Component::Pcap - POE interface to Net::Pcap
-Summary(pl):	POE::Component::Pcap - interfejs POE do Net::Pcap
+Summary(pl.UTF-8):   POE::Component::Pcap - interfejs POE do Net::Pcap
 Name:		perl-POE-Component-Pcap
 Version:	0.04
 Release:	1
@@ -34,10 +34,10 @@ from POE programs. The component creates a separate session which
 posts events to a specified session and state when packets are
 available.
 
-%description -l pl
-POE::Component::Pcap dostarcza wrapper do u¿ywania modu³u Net::Pcap z
-poziomu programów POE. Komponent ten tworzy oddzieln± sesjê wysy³aj±c±
-zdarzenia do okre¶lonej sesji i stanu, kiedy pakiety s± dostêpne.
+%description -l pl.UTF-8
+POE::Component::Pcap dostarcza wrapper do uÅ¼ywania moduÅ‚u Net::Pcap z
+poziomu programÃ³w POE. Komponent ten tworzy oddzielnÄ… sesjÄ™ wysyÅ‚ajÄ…cÄ…
+zdarzenia do okreÅ›lonej sesji i stanu, kiedy pakiety sÄ… dostÄ™pne.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
