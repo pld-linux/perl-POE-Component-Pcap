@@ -8,7 +8,7 @@
 %define		pdir	POE
 %define		pnam	Component-Pcap
 Summary:	POE::Component::Pcap - POE interface to Net::Pcap
-Summary(pl.UTF-8):   POE::Component::Pcap - interfejs POE do Net::Pcap
+Summary(pl.UTF-8):	POE::Component::Pcap - interfejs POE do Net::Pcap
 Name:		perl-POE-Component-Pcap
 Version:	0.04
 Release:	1
