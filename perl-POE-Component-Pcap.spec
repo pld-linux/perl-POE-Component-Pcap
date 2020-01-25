@@ -4,7 +4,6 @@
 %bcond_with	tests		# perform "make test"
 #				  (need root access to open a network device)
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	POE
 %define		pnam	Component-Pcap
 Summary:	POE::Component::Pcap - POE interface to Net::Pcap
